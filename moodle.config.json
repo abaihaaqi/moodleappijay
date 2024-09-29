@@ -87,7 +87,14 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "name": "Moodle Local",
+            "alias": "Moodle Local",
+            "url": "http://localhost:8888/moodle405",
+            "staging": false
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
@@ -114,24 +121,13 @@
     "disableTokenFile": false,
     "iconsPrefixes": {
         "font-awesome": {
-            "brands": [
-                "fab"
-            ],
-            "regular": [
-                "far"
-            ],
-            "solid": [
-                "fa",
-                "fas"
-            ]
+            "brands": ["fab"],
+            "regular": ["far"],
+            "solid": ["fa", "fas"]
         },
         "moodle": {
-            "font-awesome": [
-                "fam"
-            ],
-            "moodle": [
-                "moodle"
-            ]
+            "font-awesome": ["fam"],
+            "moodle": ["moodle"]
         }
     },
     "clearIABSessionWhenAutoLogin": "android"
